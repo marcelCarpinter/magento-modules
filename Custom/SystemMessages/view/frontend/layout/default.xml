@@ -6,6 +6,11 @@
                 name="block.custom.system.message" 
                 as="custom_message" 
                 template="Custom_SystemMessages::system-message.phtml" />
+            <block 
+                class="Magento\Framework\View\Element\Template" 
+                name="block.custom.custom.message" 
+                as="custom_message_sys" 
+                template="Custom_SystemMessages::custom-message.phtml" />
         </referenceContainer>
         <referenceContainer name="page.top">
             <block 
@@ -13,6 +18,11 @@
                 name="block.custom.system.message2" 
                 as="custom_message" 
                 template="Custom_SystemMessages::system-message.phtml" />
+                <block 
+                class="Magento\Framework\View\Element\Template" 
+                name="block.custom.custom.message2" 
+                as="custom_message_sys2" 
+                template="Custom_SystemMessages::custom-message.phtml" />
         </referenceContainer>
     </body>
 </page>

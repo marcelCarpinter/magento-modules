@@ -1,0 +1,24 @@
+<div data-bind="scope:'customMessages'">
+    <div data-role="custom-messages" class="messages" data-bind="foreach: { data: messages, as: 'message' }">
+        <div aria-atomic="true" role="alert" 
+            data-bind="attr:{
+                class: 'message-' + message.type + ' ' + message.type + ' message'
+            }">
+            <h2 data-bind="text: message.title"></h2>
+            <p data-bind="text: message.text"></div>
+        </div>
+    </div>
+</div>
+<script type="text/x-magento-init">
+    {
+        "*":{
+            "Magento_Ui/js/core/app":{
+                "components":{
+                    "customMessages":{
+                        "component": "Custom_SystemMessages/js/view/custom-messages"
+                    }
+                }
+            }
+        }
+    }
+</script>
