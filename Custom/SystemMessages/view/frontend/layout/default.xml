@@ -1,0 +1,18 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="messages">
+            <block 
+                class="Magento\Framework\View\Element\Template" 
+                name="block.custom.system.message" 
+                as="custom_message" 
+                template="Custom_SystemMessages::system-message.phtml" />
+        </referenceContainer>
+        <referenceContainer name="page.top">
+            <block 
+                class="Magento\Framework\View\Element\Template" 
+                name="block.custom.system.message2" 
+                as="custom_message" 
+                template="Custom_SystemMessages::system-message.phtml" />
+        </referenceContainer>
+    </body>
+</page>
