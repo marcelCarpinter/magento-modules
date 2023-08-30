@@ -4,3 +4,6 @@ This repository is created with the idea of holding nice "tricks" to some Magent
 
 Custom_SystemMessages:
  - Module created to show how to handle the system messages without using the BE. 
+ 
+ Custom_FrontendTesting:
+ - Module created with a simple js file and it tests, in order to show a simple example on how to use Grunt and Jasmine to test. It includes a readme with a guide on how the file is executed.
