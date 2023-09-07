@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+    <page>
+        <head>
+            <script 
+                src_type="url" 
+                src="https://cdn.jsdelivr.net/npm/swiper@10.2.0/swiper-bundle.min.js" />
+            <css 
+                src_type="url"
+                rel="stylesheet" 
+                src="https://cdn.jsdelivr.net/npm/swiper@10.2.0/swiper-bundle.min.css" />
+        </head>
+        <referenceContainer name="content">
+            <block 
+                    class="Magento\Framework\View\Element\Template" 
+                    name="block.custom.carrousel" 
+                    as="custom_carrousel" 
+                    template="Custom_Carrousel::carrousel/products.phtml" />
+        </referenceContainer>
+    </page>
