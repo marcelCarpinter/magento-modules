@@ -16,7 +16,6 @@ define([
         btnSuccess.click(function(ev){
             ev.preventDefault();
             let messagesList = customerData.get('customer')() || {};
-            console.log(messagesList);
             let messages = messagesList.messages || [];
             
             messages.push(
